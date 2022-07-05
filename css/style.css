@@ -142,86 +142,85 @@
 .body {
   background-color: #faf9f9;
   font-family: 'Quicksand', sans-serif; }
-
-.grillacontacto {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "nav nav nav nav" "headercont headercont headercont headercont" "form form info info" "form form info info" "footer footer footer footer";
-  align-items: center; }
-  .grillacontacto .headercont {
-    grid-area: headercont;
-    background: linear-gradient(90deg, #e30909 35%, #ffab00 100%); }
-    .grillacontacto .headercont h1 {
-      color: white;
-      text-align: center;
-      font-size: 3rem; }
-  .grillacontacto .info {
-    grid-area: info;
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1.5em;
-    background-color: black;
-    color: white; }
-    .grillacontacto .info li {
-      list-style: none;
-      padding: 15px;
-      margin: 5px; }
-    .grillacontacto .info h3 {
-      font-size: 2rem;
-      text-align: center; }
-  .grillacontacto .form {
-    grid-area: form;
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 3rem; }
-    .grillacontacto .form form {
-      margin: 0;
-      padding: 1rem; }
-      .grillacontacto .form form button {
+  .body .grillacontacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "nav nav nav nav" "headercont headercont headercont headercont" "form form info info" "form form info info" "footer footer footer footer";
+    align-items: center; }
+    .body .grillacontacto .headercont {
+      grid-area: headercont;
+      background: linear-gradient(90deg, #e30909 35%, #ffab00 100%); }
+      .body .grillacontacto .headercont h1 {
+        color: white;
+        text-align: center;
+        font-size: 3rem; }
+    .body .grillacontacto .info {
+      grid-area: info;
+      max-width: 1170px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 1.5em;
+      background-color: black;
+      color: white; }
+      .body .grillacontacto .info li {
+        list-style: none;
+        padding: 15px;
+        margin: 5px; }
+      .body .grillacontacto .info h3 {
+        font-size: 2rem;
+        text-align: center; }
+    .body .grillacontacto .form {
+      grid-area: form;
+      max-width: 1170px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 3rem; }
+      .body .grillacontacto .form form {
+        margin: 0;
+        padding: 1rem; }
+        .body .grillacontacto .form form button {
+          width: 100%;
+          padding: 1em;
+          border: none;
+          background: #B70E21;
+          text-transform: uppercase;
+          outline: 0;
+          color: #fff9f9;
+          border-bottom: 1px solid #d63031;
+          transition: 0.5s; }
+          .body .grillacontacto .form form button:hover {
+            transform: scale(1.1); }
+        .body .grillacontacto .form form input,
+        .body .grillacontacto .form form textarea {
+          width: 100%;
+          padding: .7em;
+          border: none;
+          background: none;
+          outline: 0;
+          color: #020202;
+          border-bottom: 1px solid #d63031; }
+    .body .grillacontacto .footer {
+      grid-area: footer;
+      background-color: #570404;
+      display: flex;
+      flex-direction: row; }
+      .body .grillacontacto .footer ol {
+        display: flex;
+        flex-wrap: wrap;
         width: 100%;
-        padding: 1em;
-        border: none;
-        background: #B70E21;
-        text-transform: uppercase;
-        outline: 0;
-        color: #fff9f9;
-        border-bottom: 1px solid #d63031;
-        transition: 0.5s; }
-        .grillacontacto .form form button:hover {
-          transform: scale(1.1); }
-      .grillacontacto .form form input,
-      .grillacontacto .form form textarea {
-        width: 100%;
-        padding: .7em;
-        border: none;
-        background: none;
-        outline: 0;
-        color: #020202;
-        border-bottom: 1px solid #d63031; }
-
-.footer {
-  background-color: #570404;
-  display: flex;
-  flex-direction: row; }
-  .footer ol {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    align-content: center;
-    justify-content: space-around; }
-  .footer li {
-    list-style: none;
-    padding: 15px; }
-  .footer a {
-    color: white;
-    text-decoration: none; }
-  .footer i {
-    color: white;
-    font-size: 2rem; }
-    .footer i:hover {
-      color: black; }
+        align-content: center;
+        justify-content: space-around; }
+      .body .grillacontacto .footer li {
+        list-style: none;
+        padding: 15px; }
+      .body .grillacontacto .footer a {
+        color: white;
+        text-decoration: none; }
+      .body .grillacontacto .footer i {
+        color: white;
+        font-size: 2rem; }
+        .body .grillacontacto .footer i:hover {
+          color: black; }
 
 .grilla {
   display: grid;
@@ -337,3 +336,47 @@
       margin-left: 60px;
       font-size: 1rem;
       font-family: 'Quicksand', sans-serif; }
+  .grilla .footer {
+    grid-area: footer;
+    background-color: #570404;
+    display: flex;
+    flex-direction: row; }
+    .grilla .footer ol {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      align-content: center;
+      justify-content: space-around; }
+    .grilla .footer li {
+      list-style: none;
+      padding: 15px; }
+    .grilla .footer a {
+      color: white;
+      text-decoration: none; }
+    .grilla .footer i {
+      color: white;
+      font-size: 2rem; }
+      .grilla .footer i:hover {
+        color: black; }
+
+.footer {
+  background-color: #570404;
+  display: flex;
+  flex-direction: row; }
+  .footer ol {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: center;
+    justify-content: space-around; }
+  .footer li {
+    list-style: none;
+    padding: 15px; }
+  .footer a {
+    color: white;
+    text-decoration: none; }
+  .footer i {
+    color: white;
+    font-size: 2rem; }
+    .footer i:hover {
+      color: black; }

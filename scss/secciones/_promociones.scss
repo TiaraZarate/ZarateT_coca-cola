@@ -1,0 +1,32 @@
+.footer {
+    background-color: $colorfooter;
+    display: flex;
+    flex-direction: row;
+
+    ol {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        align-content: center;
+        justify-content: space-around
+    }
+
+    li {
+        list-style: none;
+        padding: 15px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    i {
+        color: white;
+        font-size: 2rem;
+
+        &:hover {
+            color: black;
+        }
+    }
+}
