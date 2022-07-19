@@ -98,7 +98,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 35px;
+    margin: 40px;
     position: relative; }
     .body .conteiner img {
       width: 400px;
@@ -118,7 +118,7 @@
       left: 50%;
       transform: translate(-50%, -50%); }
   .body .footer {
-    background-color: #570404;
+    background-color: rgba(2, 2, 2, 0.973);
     display: flex;
     flex-direction: row; }
     .body .footer ol {
@@ -126,7 +126,7 @@
       flex-wrap: wrap;
       width: 100%;
       align-content: center;
-      justify-content: space-around; }
+      justify-content: center; }
     .body .footer li {
       list-style: none;
       padding: 15px; }
@@ -359,8 +359,18 @@
       .grilla .footer i:hover {
         color: black; }
 
+.h1 {
+  color: #570404;
+  text-align: center;
+  font-size: 6rem;
+  font-family: 'Cormorant SC', serif;
+  margin: auto; }
+
+.card {
+  text-align: center; }
+
 .footer {
-  background-color: #570404;
+  background-color: rgba(3, 3, 3, 0.945);
   display: flex;
   flex-direction: row; }
   .footer ol {
