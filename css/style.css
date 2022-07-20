@@ -2,7 +2,7 @@
   padding: 0%;
   margin: 0%; }
 
-@media (max-width: 780px) {
+@media (max-width: 480px) {
   .grilla {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -222,6 +222,33 @@
         .body .grillacontacto .footer i:hover {
           color: black; }
 
+* {
+  padding: 0;
+  margin: 0; }
+
+.h1m {
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: auto;
+  padding: 25px; }
+
+.row {
+  display: flex;
+  justify-content: space-around; }
+  .row img {
+    width: 100%;
+    height: 250px; }
+    .row img:hover {
+      border: 5px solid #f7f7f7; }
+  .row .imgt {
+    height: 300px;
+    padding: 0; }
+  .row .col-lg-4 {
+    margin: 0;
+    padding: 25px; }
+
 .grilla {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -362,8 +389,8 @@
 .h1 {
   color: #570404;
   text-align: center;
-  font-size: 6rem;
-  font-family: 'Cormorant SC', serif;
+  font-size: 3rem;
+  font-weight: bold;
   margin: auto; }
 
 .card {
@@ -379,6 +406,28 @@
     width: 100%;
     align-content: center;
     justify-content: space-around; }
+  .footer li {
+    list-style: none;
+    padding: 15px; }
+  .footer a {
+    color: white;
+    text-decoration: none; }
+  .footer i {
+    color: white;
+    font-size: 2rem; }
+    .footer i:hover {
+      color: black; }
+
+.footer {
+  background-color: rgba(2, 2, 2, 0.973);
+  display: flex;
+  flex-direction: row; }
+  .footer ol {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: center;
+    justify-content: center; }
   .footer li {
     list-style: none;
     padding: 15px; }

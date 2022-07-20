@@ -2,7 +2,7 @@
     padding: 0%;
     margin: 0%;
 }
-@media (max-width: 780px) {
+@media (max-width: 480px) {
     .grilla {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -153,3 +153,4 @@
 @import './secciones/marcas';
 @import './secciones/nosotros';
 @import './secciones/promociones';
+@import './secciones/pages'
