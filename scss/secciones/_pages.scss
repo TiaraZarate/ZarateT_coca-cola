@@ -1,3 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.boton {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+
+    a {
+        color: red;
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+
+    img {
+        height: 150px;
+        width: 150px;
+        margin: 0px auto;
+        overflow: hidden;
+        transition: 2s;
+        border-radius: 5px;
+        &:hover {
+            transform: scale(1.2);
+
+        }
+    }
+}
+
+.infor {
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+    margin-right: 400px;
+
+    div {
+        justify-content: center;
+        flex-direction: column;
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            font-size: 3rem;
+        }
+
+        .coca {
+            color: red;
+        }
+
+        .fanta {
+            color: rgb(251, 78, 15);
+        }
+
+        .sprite {
+            color: rgb(39, 158, 39);
+        }
+        .topochico {
+            color: rgb(22, 102, 59);
+        }
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+            justify-content: center;
+            font-weight: 400;
+        }
+    }
+
+    img {
+        height: 500px;
+    }
+}
+
+
+
+
 .footer {
     background-color: rgba(2, 2, 2, 0.973);
     display: flex;
