@@ -24,7 +24,7 @@
             color: white;
             margin: 125px;
             font-size: 3rem;
-            font-family: 'Quicksand', sans-serif;
+            font-family: 'Montserrat', sans-serif;
 
         }
 
@@ -202,4 +202,200 @@
         }
     }
 
+}
+
+
+@media (max-width: 480px) {
+    .body {
+        .grilla {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:
+                "nav nav"
+                "header header "
+                "section section "
+                "texto1 texto1 "
+                "texto2 texto2 "
+                "texto3 texto3 "
+                "texto4 texto4 "
+                "footer footer ";
+        }
+
+        .header {
+            h1 {
+                font-size: 2rem;
+                margin: 70px;
+            }
+        }
+
+        .section {
+            padding: 40px;
+
+            p {
+                font-size: 0.9rem;
+            }
+        }
+
+        .texto1 {
+            display: flex;
+            flex-direction: column;
+
+            img {
+                width: 200px;
+                text-align: center;
+                margin: 0px auto;
+            }
+
+            p {
+                margin: 0px auto;
+            }
+
+            h3 {
+                margin: 30px;
+            }
+        }
+
+        .texto2 {
+            display: flex;
+            flex-direction: column-reverse;
+            margin: 10px;
+
+            img {
+                width: 200px;
+                text-align: center;
+                margin: 0px auto;
+            }
+
+            h3 {
+                margin: 30px;
+            }
+
+            p {
+                margin: 0px auto;
+            }
+        }
+
+        .texto3 {
+            img {
+                width: 300px;
+                text-align: center;
+                margin: 0px auto;
+            }
+
+            h3 {
+                margin: 30px;
+            }
+
+            p {
+                margin: 30px;
+                margin: 0px auto;
+                text-align: center;
+            }
+
+            div {
+                margin: 10px;
+            }
+        }
+
+        .texto4 {
+            img {
+                width: 300px;
+                text-align: center;
+                margin: 0px auto;
+            }
+
+            h3 {
+                margin: 30px;
+            }
+
+            p {
+                margin: 30px;
+                margin: 0px auto;
+                text-align: center;
+            }
+
+            div {
+                margin: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 780px) {
+    .body {
+        .grilla {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:
+                "nav nav"
+                "header header "
+                "section section "
+                "texto1 texto1 "
+                "texto2 texto2 "
+                "texto3 texto3 "
+                "texto4 texto4 "
+                "footer footer ";
+        }
+
+        .header {
+            h1 {
+                font-size: 2rem;
+                margin: 85px;
+            }
+        }
+
+        .texto1 {
+            display: flex;
+            flex-direction: column;
+
+            img {
+                width: 400px;
+                text-align: center;
+                margin: 0px auto;
+            }
+        }
+
+        .texto2 {
+            display: flex;
+            flex-direction: column-reverse;
+
+            img {
+                width: 400px;
+                text-align: center;
+                margin: 0px auto;
+            }
+        }
+
+        .texto3 {
+            h3 {
+                margin-top: 0;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 380px) {
+    .body {
+        .grilla {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:
+                "nav nav"
+                "header header "
+                "section section "
+                "texto1 texto1 "
+                "texto2 texto2 "
+                "texto3 texto3 "
+                "texto4 texto4 "
+                "footer footer ";
+        }
+    
+
+    .texto1,.texto2 {
+        img {
+            width: 200px;
+        }
+    }
+}
 }

@@ -90,7 +90,7 @@
 
         .footer {
             grid-area: footer;
-            background-color:$colorfooter;
+            background-color: $colorfooter;
             display: flex;
             flex-direction: row;
 
@@ -120,6 +120,45 @@
                     color: black;
                 }
             }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .body {
+        .grillacontacto {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:
+                "nav nav "
+                "headercont headercont "
+                "info info "
+                "form form"
+                "footer footer";
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+
+            .info,
+            .form {
+                h3,
+                h2,
+                p,
+                li,
+                label,
+                button,
+                i {
+                    font-size: 30px;
+
+                }
+            }
+        .footer{
+            width: 100%;
+        }
+
+
+
+
         }
     }
 }
